@@ -1,0 +1,10 @@
+create table book(book_id integer primary key,title varchar(20),pub_name varchar(20),pub_year varchar(20));
+insert into book values(16787,'variable','bhaskar','2001'); 
+insert into book values(17645,'reference','ramesh','2002');
+insert into book values(16453,'direction','suresh','2009');
+insert into book values(54637,'bracket','ganesh','2010');
+insert into book values(46373,'track','himesh','2008');
+insert into book values(98754,'super','gopal','2005'); 
+insert into book values(76846,'track','laxman','2020');
+create table book_copies(book_id integer,branch_id integer,no_of_copies integer,primary key(book_id,branch_id));
+                                                                                                                                                  create table book_copies(book_id integer,branch_id integer,no_of_copies integer,primary key(book_id,branch_id));
